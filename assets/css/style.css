@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    font-size: small;
+    background-color: black;
+}
+nav h3{
+    margin:10px;
+    color:white;
+    
+}
+.hed{
+    position: relative;
+    
+}
+.hed img{
+    vertical-align: middle;
+}
+ .hed div{
+    position: absolute;
+    bottom:25px;
+    color:white;
+    width: 100%;
+    text-align: center;
+    
+
+}
+.hed h1{
+    margin: 10px;
+}
+.sec1 {
+    text-align: center;
+    height: 450px;
+}
+.the-pand, .tour-dates {
+    padding-top: 40px;
+    margin: 20px;
+}
+.the-pand h2{
+    padding: 10px;
+}
+.p1{
+    color:rgba(0, 0, 0, 0.229)
+}
+.p2{
+    width: 60%;
+    margin: 0 auto;
+   
+}
+.name{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.sec2{
+   
+    height: 650px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.tour-dates{
+     text-align: center;
+}
+.sec2 h2{
+   
+    color: white;
+    padding: 10px;
+
+}
+
+.ticket{
+    background-color: white;
+    height: 110px;  
+    width: 70%;
+    margin: 0 auto;
+   
+}
+.div1 p ,.div1 div, .div2 p ,.div2 div ,.div3 p {
+ display:inline-block;
+}
+.div1 ,.div2 ,.div3 {
+    margin: 5px;
+    padding: 5px;
+}
+.sold{
+    background-color: red;
+    color:white;
+    height: 20px;
+    width: 80px;
+    padding-left: 20px;
+}
+.div3{
+ display: flex;
+ justify-content: space-between;
+}
+.p3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+}
+.sec3{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.div4{
+    margin-top: 20px;
+    background-color: white;
+    width: 30%;
+    height:320px ;
+}
+.sec3 h3 , .sec3 p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.buy{
+    background-color: black;
+    width: 100px;
+  
+    color: white;
+    margin: 10px;
+  
+}
+.nov{
+    color:rgba(0, 0, 0, 0.371)
+}
+.p5{
+    color: rgb(115, 108, 108);
+}
+.sec4{
+    height: 200px;
+    width: 100%;
+   
+}
+.cont{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.cont h2{
+    padding: 10px;
+  
+}
+.cont p{
+    color: rgba(0, 0, 0, 0.33);
+}
+.flex{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.div5 img, .div5 p{
+    display: inline;
+}
+button{
+    display: block;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+}
+.in{
+    display: inline;
+}
+.in form,.in input {
+    display: inline;
+    
+}
+.in input{
+    width: 150px;
+}
+.in2{
+    width: 310px;
+    margin-top: 10px;
+}
+.but{
+    padding-left: 270px;
+}
+footer{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2{
+    text-align: center;
+}
+a{
+    color: black;
+}
